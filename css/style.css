@@ -1,0 +1,282 @@
+/* Google Fonts : Open Sans + Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* Main Section */
+#main-section {
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(217, 28%, 15%);
+  padding: 50px 0;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.navigation-bar {
+  margin-bottom: 50px;
+}
+
+.navigation-bar .nav-item {
+  margin: 0 20px;
+}
+
+.title {
+  width: 60%;
+}
+
+.title img {
+  width: 100%;
+}
+
+.title h1 {
+  margin: 50px 0;
+}
+
+.title p {
+  margin: 50px 10%;
+  font-size: 20px;
+}
+
+.title button {
+  margin-bottom: 80px;
+  background-color: hsl(198, 60%, 50%);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 50px;
+  border-radius: 60px;
+}
+
+.title button:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+/* Features Section */
+#features-section {
+  padding: 50px;
+}
+
+.feature-box {
+  padding: 50px 10%;
+}
+
+.feature-box h2 {
+  font-size: 25px;
+  margin: 20px 0 10px;
+}
+
+/* Stay Productive Section */
+#stay-productive-section {
+  padding: 50px 0;
+  text-align: left;
+}
+
+#stay-productive-section h1 {
+  margin: 30px 20px;
+}
+
+#stay-productive-section p {
+  margin: 20px;
+}
+
+.sp-img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.fylo-works a {
+  padding-bottom: 3px;
+  color: hsl(176, 68%, 64%);
+  text-decoration: none;
+}
+
+.fylo-works {
+  display: inline;
+  margin: 20px;
+  border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+
+/* Testemonials Section */
+#testimonials-section {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.testimonial-box {
+  margin: 10px;
+  padding: 30px 25px 10px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+  filter: drop-shadow(0 0 1rem hsl(219, 30%, 7%));
+}
+
+.quotes-image {
+  position: relative;
+  top: 20px;
+  z-index: -1;
+}
+
+.user-card {
+  margin-top: 30px;
+}
+
+.user-card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-card h3 {
+  font-size: 14px;
+}
+
+.user-card p {
+  font-size: 12px;
+}
+
+/* Sign Up Section */
+#sign-up-section {
+  position: relative;
+  top: 120px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 10px;
+  background-color: hsl(217, 28%, 15%);
+  filter: drop-shadow(0 0 1rem hsl(216, 53%, 7%));
+}
+
+#sign-up-section p {
+  margin: 30px;
+}
+
+#sign-up-section button {
+  margin: 0 30px;
+  width: 300px;
+  height: 50px;
+  background-color: hsl(198, 60%, 50%);
+  border-radius: 50px;
+}
+
+#sign-up-section button:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+#sign-up-section input {
+  margin: 0 30px;
+  padding-left: 30px;
+  border-radius: 50px;
+}
+
+
+/* Footer Section */
+#footer-section {
+  text-align: left;
+  padding: 220px 0 20px;
+  background-color: hsl(216, 53%, 9%);
+}
+
+#footer-section p {
+  display: inline;
+  margin-left: 20px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-adr {
+  padding-right: 25px;
+  margin-top: 20px;
+}
+
+.mail-phone {
+  margin-top: 20px;
+}
+
+.contacts {
+  margin: 20px 0;
+}
+
+.social-media-item {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.fb-item {
+  padding: 10px 13px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.attribution a {
+  color: hsl(176, 68%, 64%);
+}
+
+
+/* Screen Sizes */
+@media screen and (max-width: 991.9px) {
+  #main-section {
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  
+  #sign-up-section button {
+    height: 50px;
+    width: 90%;
+    margin: 10px auto;
+
+  }
+
+  #sign-up-section input {
+    height: 50px;
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .user-card img {
+    width: 50px;
+  }
+
+  .footer-col {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .user-card img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .user-card img {
+    width: 120%;
+  }
+
+  #sign-up-section {
+    width: 75%;
+  }
+}
